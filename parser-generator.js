@@ -16,5 +16,5 @@ function generateParser(input_file, output_file, classname)
 
 }
 
-var classname = 'LogicExp';
+var classname = 'LogicExpParser';
 generateParser('logic-exp-php.pegjs', classname+'.php', classname);

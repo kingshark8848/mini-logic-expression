@@ -1,6 +1,6 @@
 <?php
 
-include 'LogicExp.php';
+include 'LogicExpParser.php';
 
 print("hello\r\n");
 
@@ -27,7 +27,7 @@ function treeToString($tree){
 
 }
 
-$parser = new Parser\LogicExp;
+$parser = new Parser\LogicExpParser;
 
 $tree = $parser->parse('(11 OR NOT 1) AND NOT ( 22 AND 3 OR 4 AND 74 )');
 print(json_encode($tree));

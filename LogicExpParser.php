@@ -64,7 +64,7 @@ class LocationPosition
     }
 };}
 
-class LogicExp{
+class LogicExpParser{
 
 
     private $peg_currPos          = 0;
