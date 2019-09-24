@@ -64,7 +64,7 @@ Here are some examples:
             '1 AND 2 ( AND  2 )',
             '1 AND 1 ( AND  1 )',
             '1 OR 1 OR AND 1',
-            '1 OR 1 OR NOT AND 1',
+            '1 OR 1 OR NOT AND 1'
 
 System need to verify and parse the script correctly. 
 
